@@ -975,7 +975,7 @@ for (size_t i = 0; i < vector_types.size(); ++i) {
       for (size_t l = 0; l < vector_types.size(); ++l) {
         for (size_t m = 0; m < vector_types.size(); ++m) {
           for (size_t n = 0; n < vector_types.size(); ++n) {
-            add("wiener_log",
+            add("ratcliff_log",
                 DOUBLE_T,
                 vector_types[i],vector_types[j],vector_types[k],
                 vector_types[l],vector_types[m],vector_types[n]);
